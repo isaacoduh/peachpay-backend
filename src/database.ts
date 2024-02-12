@@ -4,7 +4,7 @@ export const sequelize: Sequelize = new Sequelize({
   database: "peachpay_local",
   username: "root",
   password: "root",
-  host: "localhosot",
+  host: "localhost",
   port: 8889,
   dialect: "mysql",
   logging: true,
